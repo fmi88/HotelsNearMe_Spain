@@ -2,8 +2,11 @@ Welcome to  Hotels near me app for Android!
 
 This is an open source Android app developed by Francisco Miranda. The app is available at Google Play.
 
-I take privacy very seriously. My app does not collect any information. All data created is used by the app only. The app does not store
-any data. When the app is off the data is lost.   The user can make phone calls but user data is not transmitted off device.
+All data created is used by the app only. The app does not store any data. When the app is off the data is lost. 
+The user can make phone calls but user data is not transmitted off device in the call.
+The application takes the location of the user then access https://nominatim.openstreetmap.org sending the location
+to obtain the state and zipcode the user is in. With that we get the hotels that are in the zipcode. Yes data 
+is  transmitted off device to nominatim web side but the app does not do anything but get the hotels in the zipcode.
 
 If you find any security vulnerability that has been inadvertently caused by me, or have any questions regarding 
 how the app protects your privacy, please send me an email and I will fix it.
