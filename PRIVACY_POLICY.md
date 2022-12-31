@@ -6,7 +6,7 @@ All data created is used by the app only. The app does not store any data. When 
 The user can make phone calls but user data is not transmitted off device in the call.
 The application also takes the location of the user then access https://nominatim.openstreetmap.org sending the location
 to obtain the state and zipcode the user is in. With that we get the hotels that are in the zipcode. Yes data 
-is  transmitted off device to nominatim web side but the app does not do anything but get the hotels in the zipcode.
+is  transmitted off device to nominatim web side but the app does not do anything but to get the hotels in the zipcode.
 
 If you find any security vulnerability that has been inadvertently caused by me, or have any questions regarding 
 how the app protects your privacy, please send me an email and I will fix it.
